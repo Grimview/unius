@@ -1,0 +1,19 @@
+{
+  "name": "unius",
+  "version": "0.1.0",
+  "description": "An app for managing JSON data, made with Electron.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/Grimview/unius",
+  "keywords": [
+    "Electron",
+    "JSON",
+    "editor",
+    "management",
+    "data"
+  ],
+  "author": "Grimview",
+  "license": "CC-BY-SA-4.0"
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    
+    <title>Explorer</title>
+    
+    <link rel="stylesheet" href="assets/styles/default.css">
+  </head>
+  
+  <body>
+    <h1 id="title">JSON Editor</h1>
+    
+    <nav id="main">
+      <ul id="title-buttons">
+        <li id="close-button"></li>
+        <li id="maximise-button"></li>
+        <li id="minimise-button"></li>
+      </ul>
+      <button class="primary button" id="open-file"><span class="mif-insert-drive-file"></span></button>
+      
+      <button class="secondary button float-right" id="up-one" disabled><span class="mif-move-up"></span></button>
+    </nav>
+    
+    <nav id="tabs-nav">
+      <ul id="tabs"></ul>
+    </nav>
+    
+    <main>
+      <ul id="items"></ul>
+    </main>
+    
+    <script>
+      // You can also require files to run in this process
+      window.$ = window.jQuery = require('./assets/scripts/jquery-3.3.1.min.js');
+      
+      //require('./assets/scripts/materialize.min.js');
+      require('./assets/scripts/metro.min.js');
+      
+      require('./renderer.js');
+    </script>
+  </body>
+</html>

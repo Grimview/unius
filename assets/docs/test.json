@@ -1,0 +1,55 @@
+{
+  "favSong": "http://127.0.0.1:5500/assets/audio/crawl-outta-love.mp3",
+  "number": 7,
+  "string": "this is a fifth test!",
+  "isThisTrue": true,
+  "booleanValues": {
+    "booleanTrue": true,
+    "booleanFalse": false
+  },
+  "numbers": [
+    1,
+    2,
+    3,
+    7
+  ],
+  "names": [
+    "Sabastian",
+    "Sierra",
+    "Elliot",
+    "Evan"
+  ],
+  "people": {
+    "Sabastian": {
+      "age": 22,
+      "favPhoto": "https://wallpapercave.com/wp/kSQdCxM.jpg",
+      "favColours": [
+        "amber",
+        "purple"
+      ],
+      "skills": {
+        "tattooing": {
+          "level": 1
+        },
+        "programming": {
+          "level": 3
+        }
+      }
+    },
+    "Sierra": {
+      "age": 18,
+      "favColours": [
+        "teal",
+        "blue"
+      ],
+      "skills": {
+        "painting": {
+          "level": 3
+        },
+        "tattooing": {
+          "level": 1
+        }
+      }
+    }
+  }
+}
